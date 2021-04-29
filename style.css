@@ -8,6 +8,14 @@
     src: url('MomsDiner.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'SpringGarden';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Spring\ Garden.ttf') format('truetype');
+}
+
+
 .home{
     position: relative;
 }
@@ -52,6 +60,7 @@ html, body {
 
 .subheading{
     color:white;
+    font-family: 'SpringGarden';
 }
 
 .main-content {
