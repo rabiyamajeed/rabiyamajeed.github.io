@@ -1,6 +1,12 @@
 /* style.css
  * This styles the file index.html
  */
+ @font-face {
+    font-family: 'MomsDiner';
+    font-style: normal;
+    font-weight: 400;
+    src: url('MomsDiner.ttf') format('ttf');
+}
 
 html, body {
     width: 100%;
@@ -9,8 +15,13 @@ html, body {
     overflow-y: auto;
 }
 
-.name {
+
+.display-name {
     font-size: 4rem;
+}
+
+.test-class {
+    font-family: 'MomsDiner';
 }
 
 .main-content {
@@ -21,3 +32,5 @@ html, body {
     font-size: 2rem;
     margin: 0 0.5rem; /* top/bottom right/left */
 }
+
+
