@@ -8,6 +8,10 @@
     src: url('MomsDiner.ttf') format('truetype');
 }
 
+.home{
+    position: relative;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -15,22 +19,72 @@ html, body {
     overflow-y: auto;
 }
 
+.img-class{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    /*object-fit: cover;*/
+
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+}
 
 .display-name {
     font-size: 4rem;
+    color: white;
 }
 
 .test-class {
     font-family: 'MomsDiner';
 }
 
+.subheading{
+    color:white;
+}
+
 .main-content {
     flex-grow: 1;
+    z-index: 2;
 }
 
 .social-icon {
     font-size: 2rem;
     margin: 0 0.5rem; /* top/bottom right/left */
+    color: white;
+
 }
 
+.social-icon:hover{
+    color: turquoise;
+}
+
+.copyright{
+    color: white;
+    z-index: 2;
+}
+
+
+#sakura {
+    position: absolute;
+    padding:0;
+    margin:0;
+    z-index: 0;
+}
+div.btnbg {
+    position:fixed;
+    left:0;
+    top:0;
+}
 
