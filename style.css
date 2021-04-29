@@ -31,10 +31,8 @@ html, body {
     position: absolute;
     z-index: 0;
     width: 100%;
-    height: auto;
-    bottom: 0;
-    right: 0;
-    /*object-fit: cover;*/
+    height: 100%;
+    object-fit: cover;
 
 }
 
@@ -52,6 +50,7 @@ html, body {
 .display-name {
     font-size: 4rem;
     color: white;
+    text-align: center;
 }
 
 .test-class {
@@ -83,4 +82,3 @@ html, body {
     color: white;
     z-index: 2;
 }
-
