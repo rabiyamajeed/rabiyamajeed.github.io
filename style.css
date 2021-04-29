@@ -5,7 +5,7 @@
     font-family: 'MomsDiner';
     font-style: normal;
     font-weight: 400;
-    src: url('MomsDiner.ttf') format('ttf');
+    src: url('MomsDiner.ttf') format('truetype');
 }
 
 html, body {
